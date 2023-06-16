@@ -95,7 +95,7 @@ public class BallSelectionManager
 
         ClearSelectedBalls();
         AudioPlayer.instance.PlaySound1();
-        DotController.instance.InstantiateNewDotsOnTop();
+        //DotController.instance.InstantiateNewDotsOnTop();
         return destroyedBallColors;
     }
 }
